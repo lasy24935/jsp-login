@@ -32,6 +32,35 @@
 	
 <div>
 <h1 style="align-center">Admin</h1>
+<section class="section section_contact">
+	<div class="container">
+		<div class="row">
+				<table class="responsive-table highlight">
+					<h3 class="contact_titre z-depth-4 teal-text text-lighten-1">Listes des Contacts</h3>
+					<thead>
+						<tr>
+							<th data-field="id">Prenom</th>
+							<th data-field="name">Nom</th>
+							<th data-field="price">Email</th>
+							<th data-field="message">Message</th>
+
+						</tr>
+					</thead>
+					<tbody>
+						
+						<tr>
+							<td>Jonathan</td>
+							<td>Jonathan</td>
+							<td>Lollipop</td>
+							<td>.00</td>
+						</tr>
+					</tbody>
+				</table>
+		</div>
+	</div>
+
+		
+</section>
 </div>
 </body>
 </html>
