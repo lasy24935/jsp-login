@@ -35,7 +35,7 @@
 				<li><a href="<%=request.getContextPath()%>/index.jsp"> Administrateur</a></li>
 				<li><a href="<%=request.getContextPath()%>/membre.jsp"> Membre</a></li>
 				<li><a href="<%=request.getContextPath()%>/contact.jsp"> Contact</a></li>
-				<li> <a href="<%=request.getContextPath()%>/logout.jsp">logout</a></li>
+				<li> <a href="<%=request.getContextPath()%>/logout.jsp">logout </a></li>
 	
 			  </ul>
 			  <ul class="side-nav" id="mobile-menu">
@@ -52,7 +52,7 @@
 				<li><a href="<%=request.getContextPath()%>/index.jsp"> Dashboard</a></li>
 				<li><a href="<%=request.getContextPath()%>/membre.jsp"> Membre</a></li>
 				<li><a href="<%=request.getContextPath()%>/contact.jsp"> Contact</a></li>
-				<li> <a href="<%=request.getContextPath()%>/logout.jsp">Logout</a></li>
+				<li> <a href="<%=request.getContextPath()%>/logout.jsp">logout </a></li>
 				
 			  </ul>
 			</div>
@@ -68,7 +68,7 @@
 		<div class="container">
 			<div class="row">
 					<table class="responsive-table highlight">
-						<h3 class="z-depth-4 teal-text">Listes des Membres</h3>
+						<h3 class="z-depth-4 teal-text">Listes des Contacts</h3>
 						<thead>
 							<tr>
 								<th data-field="id">Prenom</th>
@@ -93,7 +93,6 @@
 	
 			
 	</section>
-	
 			
 		<div style="height: 15vh;"></div>
 		
