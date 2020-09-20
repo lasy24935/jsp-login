@@ -63,7 +63,7 @@
 	<br>
 
 <main>
-	<h1>Admin</h1>
+	
 	<section class="section section_contact">
 		<div class="container">
 			<div class="row">
