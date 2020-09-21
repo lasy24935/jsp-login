@@ -2,15 +2,17 @@
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="ISO-8859-1">
-<title>Login Password</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="ISO-8859-1">
+  <title>Login Password</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="shortcut icon" href="assets/img/01.jpg" type="image/x-icon">
 
 
-<style>
+  <style>
     body {
       display: flex;
       min-height: 100vh;
@@ -22,55 +24,59 @@
     }
   </style>
 </head>
+
 <body>
-		<header>
-				<nav class="teal darken-4">
-				  <div class="nav-wrapper">
-					<div class="container">
-					  <a href="index.jsp" class="brand-logo">JSP | Login</a>
-					  <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
-					  <ul class="right hide-on-med-and-down">
-						<li><a href="<%=request.getContextPath()%>/index.jsp"> Dashboard</a></li>
-						<li> <a href="<%=request.getContextPath()%>/login.jsp">Se Connecter </a></li>
-			
-					  </ul>
-					  <ul class="side-nav" id="mobile-menu">
-						<li>
-						  <div class="userView">
-							<div class="background">
-							  <img src="assets/img/07.jpg" alt="Background Sidenav">
-							</div>
-							<a href="#!user"><img class="circle" src="assets/img/bou.jpg" alt="User Image Sidenav"></a>
-							<a href="#!name"><span class="white-text name">Admin</span></a>
-							<a href="#!email"><span class="white-text email">boucorrea@gmail.com</span></a>
-						  </div>
-						</li>
-						<li><a href="<%=request.getContextPath()%>/index.jsp"> Dashboard</a></li>
-						<li> <a href="<%=request.getContextPath()%>/login.jsp">Se connecter </a></li>
-						
-					  </ul>
-					</div>
-				  </div>
-				</nav>
+  <header>
+    <nav class="teal darken-4">
+      <div class="nav-wrapper">
+        <div class="container">
+          <a href="index.jsp" class="brand-logo">JSP | Login</a>
+          <a href="#" data-activates="mobile-menu" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="<%=request.getContextPath()%>/index.jsp"> Dashboard</a></li>
+            <li> <a href="<%=request.getContextPath()%>/login.jsp">Se Connecter </a></li>
 
-		</header>
+          </ul>
+          <ul class="side-nav" id="mobile-menu">
+            <li>
+              <div class="userView">
+                <div class="background">
+                  <img src="assets/img/07.jpg" alt="Background Sidenav">
+                </div>
+                <a href="#!user"><img class="circle" src="assets/img/bou.jpg" alt="User Image Sidenav"></a>
+                <a href="#!name"><span class="white-text name">Admin</span></a>
+                <a href="#!email"><span class="white-text email">boucorrea@gmail.com</span></a>
+              </div>
+            </li>
+            <li><a href="<%=request.getContextPath()%>/index.jsp"> Dashboard</a></li>
+            <li> <a href="<%=request.getContextPath()%>/login.jsp">Se connecter </a></li>
 
-			<main>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-				<br>
-<div class="container">
-  <div class="row">
-    <div class="col l10 m10 s10 offset-l1">
-      <h1 class="teal lighten-1 z-depth-3 center"> JSP Tomcat Servlet Login </h1>
+  </header>
 
+  <main>
+
+    <div style="height: 15vh;"></div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col l10 m10 s10 offset-l1">
+          <h1 class="teal lighten-1 z-depth-3 center"> JSP Tomcat Servlet Login </h1>
+
+        </div>
+      </div>
     </div>
-  </div>
-</div>					
-		<div style="height: 15vh;"></div>
-			</main>
-			
-			
-<footer class="page-footer teal darken-4">
+
+    <div style="height: 15vh;"></div>
+
+  </main>
+
+
+  <footer class="page-footer teal darken-4">
     <div class="container">
       <div class="row">
         <div class="col s12 m8 l6">
@@ -85,7 +91,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-         2020 Copyright Aerroc
+        2020 Copyright Aerroc
         <a class="grey-text text-lighten-4 right" href="#!">Info</a>
       </div>
     </div>
