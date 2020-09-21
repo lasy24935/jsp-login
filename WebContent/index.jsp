@@ -71,7 +71,7 @@
       </div>
     </div>
 
-    <div style="height: 15vh;"></div>
+    <div style="height: 25vw;"></div>
 
   </main>
 

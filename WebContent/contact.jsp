@@ -63,7 +63,7 @@
 
 
 <main>
-	<div style="height: 25vw;"></div>
+	<div style="height: 10vw;"></div>
 
 	<section class="section">
 		<div class="container">

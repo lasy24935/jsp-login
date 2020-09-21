@@ -66,9 +66,9 @@
 
 	<main>
 
-		<div style="height: 25vw;"></div>
+		<div style="height: 10vw;"></div>
 
-		<section class="section section_contact">
+		<section class="section">
 			<div class="container">
 				<div class="row">
 					<table class="responsive-table highlight">

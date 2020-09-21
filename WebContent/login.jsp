@@ -8,7 +8,7 @@
 	<meta charset="ISO-8859-1">
 	<title>Login</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<!-- lien de materialise -->
+	<!-- lien de materialize -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 	<!-- Lien pour le icon du site -->
 	<link rel="shortcut icon" href="assets/img/01.jpg" type="image/x-icon">
@@ -63,7 +63,7 @@
 	</header>
 
 	<main>
-		<div style="height: 25vw;"></div>
+		<div style="height: 10vw;"></div>
 
 		<!-- On créer le servlet LoginCheck
 	 pour recupéré le user et le password 
@@ -94,7 +94,7 @@
 		</section>
 
 
-		<div style="height: 25vw;"></div>
+		<div style="height: 20vw;"></div>
 	</main>
 
 	<footer class="page-footer teal darken-4">
