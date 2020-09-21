@@ -8,7 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
 
 <style>
@@ -39,9 +38,9 @@
 						<li>
 						  <div class="userView">
 							<div class="background">
-							  <img src="#" alt="Background Sidenav">
+							  <img src="assets/img/07.jpg" alt="Background Sidenav">
 							</div>
-							<a href="#!user"><img class="circle" src="#" alt="User Image Sidenav"></a>
+							<a href="#!user"><img class="circle" src="assets/img/bou.jpg" alt="User Image Sidenav"></a>
 							<a href="#!name"><span class="white-text name">Admin</span></a>
 							<a href="#!email"><span class="white-text email">boucorrea@gmail.com</span></a>
 						  </div>
@@ -59,8 +58,14 @@
 			<main>
 
 				<br>
-			<h1 class="teal lighten-1 z-depth-3 center"> JSP Tomcat Servlet Login </h1>
-					
+<div class="container">
+  <div class="row">
+    <div class="col l10 m10 s10 offset-l1">
+      <h1 class="teal lighten-1 z-depth-3 center"> JSP Tomcat Servlet Login </h1>
+
+    </div>
+  </div>
+</div>					
 		<div style="height: 15vh;"></div>
 			</main>
 			

@@ -1,4 +1,4 @@
 # jsp-login
-# Materializecss
+# Materializecss : j'utilise les CDN
 # username : admin
 # password : password

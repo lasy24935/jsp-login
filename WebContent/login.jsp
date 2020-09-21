@@ -7,10 +7,8 @@
 <meta charset="ISO-8859-1">
 <title>Login</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+<!-- lien de materialise -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
 
 <style>
     body {
@@ -60,7 +58,7 @@
 	
 <main>
 
-
+  <!-- On créer le servlet LoginCheck pour recupéré le user et le password avec la method post -->
 		
 		<section class="section">
 			<div class="container">
