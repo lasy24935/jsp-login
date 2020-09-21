@@ -59,7 +59,7 @@
 			<main>
 
 				<br>
-			<h1> JSP Tomcat Servlet Login </h1>
+			<h1 class="teal lighten-1 z-depth-3 center"> JSP Tomcat Servlet Login </h1>
 					
 		<div style="height: 15vh;"></div>
 			</main>
